@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: dubbo_study-two-app
+  dubbo:
+    server: true
+    registry: zookeeper://localhost:2181
+    application:
+      name: dubbo_study-two-app
+    protocol:
+      port: 20881
+server:
+  port: 8081
+
